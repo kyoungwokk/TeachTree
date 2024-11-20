@@ -1,0 +1,173 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f7f7f7;
+}
+
+.signup-form {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 380px;
+  margin-bottom: 20px; /* 폼 자체의 아래쪽 마진 추가 */
+  margin-top:20px;
+}
+
+.logo-container {
+  margin-bottom: 1.5rem;
+}
+
+.signlogo {
+  width: 50px; /* 로고 크기 조정 */
+  height: auto;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #666;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 모든 요소를 중앙 정렬 */
+}
+
+.password-rules {
+  text-align: left;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  list-style: none;
+  padding-left: 0;
+  color: #999; /* 기본 색상 */
+}
+
+.password-rules li {
+  margin-bottom: 0.3rem;
+}
+
+.password-rules li.valid {
+  color: #4caf50; /* 조건 충족 시 녹색 */
+  font-weight: bold; /* 조건 충족 시 강조 */
+}
+
+.password-rules li::before {
+  content: '✔'; /* 체크 아이콘 */
+  position: absolute;
+  left: 0;
+  color: #4caf50; /* 초록색 아이콘 */
+  font-size: 0.9rem; /* 아이콘 크기를 텍스트 크기와 동일하게 */
+}
+
+label {
+  font-size: 0.9rem; /* 입력창 레이블 크기 통일 */
+  margin-bottom: 0.5rem;
+  text-align: left;
+  width: 80%;
+  color: #333;
+}
+
+input {
+  width: 80%;
+  padding: 12px;
+  font-size: 0.9rem; /* 입력창 텍스트 크기와 통일 */
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+
+.signup-button {
+  width: 80%;
+  background-color: #f44336;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.signup-button:hover {
+  background-color: #d32f2f; /* 버튼 호버 색상 */
+}
+
+.terms-text {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+.footer-text {
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  color: #666;
+}
+
+.social-login {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.social-icon {
+  width: 40px;
+  margin: 0 15px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.2); /* 호버 시 아이콘 확대 */
+}
+
+.quick-signup-title {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #666;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.quick-signup-title::before,
+.quick-signup-title::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #ccc; /* 선의 색상과 두께 */
+  margin: 0 10px; /* 선과 텍스트 사이의 여백 */
+}
+.newsletter-checkbox {
+  display: flex;
+  align-items: center; /* 체크박스와 텍스트를 수직 정렬 */
+  margin-right: 80px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  white-space: nowrap; /* 텍스트가 줄 바뀌지 않도록 설정 */
+}
+.newsletter-checkbox input[type="checkbox"] {
+  margin-right: -15px; /* 체크박스와 글씨 사이의 간격 설정 */
+}
+.newsletter-checkbox input {
+  margin-right: 0.5rem; /* 체크박스와 텍스트 사이의 간격 */
+}
+
+.newsletter-checkbox label {
+  font-size: 0.9rem; /* 텍스트 크기 조정 */
+  color: #666; /* 텍스트 색상 */
+  white-space: nowrap; /* 텍스트가 줄 바뀌지 않도록 설정 */
+}

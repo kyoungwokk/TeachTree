@@ -1,0 +1,152 @@
+/* 상단 헤더 스타일 */
+.LeturePage-header1-square {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+    height: 330px;
+}
+
+.LeturePage-header1-text {
+    font-size: 24px;
+    margin-left: 180px;
+    margin-top: -60px;
+}
+
+.LeturePage-header1-text h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.LeturePage-header1-text p {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.LeturePage-header1-img {
+    height: 85%;
+    object-fit: contain;
+    margin-right: 145px;
+}
+
+/* 전체 페이지 배경 */
+.LecturePage-body {
+    background-color: black;
+    color: white;
+}
+
+/* 네비게이션 탭 스타일 */
+.LecturePage-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #fff;
+    color: black;
+    height: 1700px;
+    padding: 40px;
+    border-top: 2px solid #e6e6e6;
+    border-radius: 25px 25px 0 0;
+    margin-top: 20px;
+}
+
+/* 네비게이션 탭 스타일 */
+.nav-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.nav-tab {
+    cursor: pointer;
+    color: #666;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s ease;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* 탭 밑줄 효과 */
+.nav-tab::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: #309A51;
+    transition: width 0.3s ease;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+}
+
+.nav-tab:hover {
+    color: #309A51;
+}
+
+.nav-tab:hover::after {
+    width: 100%;
+}
+
+.nav-tab.active {
+    color: #309A51;
+}
+
+.nav-tab.active::after {
+    width: 100%;
+}
+
+/* 강의 카드 스타일 */
+.lecture-container {
+    display: flex;
+    justify-content: flex-start; /* 왼쪽 정렬 */
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    padding-left: 6.5%; /* 왼쪽에 여백을 줘서 카드들이 가운데에 가까워지도록 조정 */
+}
+
+.lecture-card {
+    background-color: #ffffff;
+    width: 500px; /* 카드 너비를 조정 */
+    border-radius: 15px;
+    padding: 0px 0px 20px 0px;
+    text-align: left;
+    color: rgb(60, 60, 60);
+    transition: transform 0.3s ease;
+}
+
+.image-container {
+    margin-bottom: 50px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.lecture-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-container:hover .lecture-image {
+    filter: brightness(1.2); /* 밝기를 살짝 높임 */
+}
+
+.lecture-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* 왼쪽 정렬로 변경 */
+    gap: 10px; /* 아이콘 사이의 간격을 줄임 */
+    font-size: 18px;
+    color: #666;
+}
+.p-margin{
+    margin-top: -8px;
+
+}
+

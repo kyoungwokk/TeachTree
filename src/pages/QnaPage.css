@@ -1,0 +1,228 @@
+.header1-square {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+    height: 330px; /* 높이를 조절하여 원하는 크기로 설정 */
+}
+
+.header1-text {
+    font-size: 24px;
+    margin-left: 180px;
+    margin-top: -60px;
+}
+
+.header1-text h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.header1-text p {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 15px 0 0 0;
+}
+
+.header1-img {
+    height: 85%;
+    object-fit: contain;
+    margin-right: 145px;
+}
+
+
+.header1-square2 {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    padding: 20px 40px;
+    height: 620px; /* 높이를 조절하여 원하는 크기로 설정 */
+}
+.header1-text2 {
+    font-size: 24px;
+    margin-left: 180px;
+    margin-top: -210px;
+
+}
+.header1-text2 h1 {
+    font-size: 34px;
+    color: black;
+    margin: 0;
+}
+
+
+.community-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.community-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.community-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, auto); /* 각 열 너비를 자동으로 설정 */
+    gap: 10px; /* 버튼 간의 간격 조절 */
+    justify-items: center;
+    max-width: 560px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.community-button {
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: white;
+    color: gray;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.community-button:not(.selected):hover {
+    background-color: #f0f0f0;
+}
+
+.selected {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+
+.search-container{
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+}
+.search-input {
+
+    width: 350px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    color: #999;
+}
+.search-input::placeholder {
+    color: #ccc;
+}
+
+
+.center-content{
+    text-align: left;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.center-img {
+    margin: -10px 0px 15px -140px;
+}
+
+.center-text {
+    margin: 0px 0px 35px -135px;
+    font-size: 18px;
+    color: gray;
+}
+.community-button1 {
+    margin: 0px 0px 0px -100px;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: white;
+    color: gray;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.selected1 {
+    background-color: rgb(177,138,196);
+    color: white;
+    font-weight: bold;
+}
+.community-button1:hover {
+    background-color: purple;
+}
+
+
+
+.header1-square3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background:rgb(75, 86, 76);
+    color: rgb(65, 65, 65);
+    padding: 40px;
+    height: 480px;
+}
+.header1-text3 {
+    margin: 50px 0px 20px 180px;
+    font-size: 24px;
+}
+
+.header1-text3 h1 {
+    font-size: 36px;
+    color: rgb(64, 195, 105);
+    margin: 0;
+}
+/* Contact Cards */
+.header1-text3 h1 {
+    font-size: 36px;
+    color: rgb(64, 195, 105);
+    margin: 0;
+}
+
+/* Contact Cards */
+.contact-cards {
+    display: flex;
+    gap: 60px;
+    margin-top: 30px;
+    margin-left: 180px;
+}
+.contact-card {
+    background-color: rgb(65, 65, 65);
+    border: 1px solid rgb(113, 113, 113);
+    border-radius: 10px;
+    padding: 20px;
+    height: 200px;
+    width: 380px;
+    color: rgb(191, 191, 191);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-decoration: none;
+}
+.contact-card h2 {
+    font-size: 27px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.contact-card p {
+    margin-top: 25px;
+    font-size: 17px;
+    color: #bbbbbb;
+    margin-bottom: 15px;
+}
+.contact-link {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 21px;
+    color: rgb(67,205,110);
+    text-decoration: none;
+    cursor: pointer;
+}

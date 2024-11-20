@@ -1,0 +1,112 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  backdrop-filter: blur(0.25rem);
+  overflow: hidden; /* 스크롤 방지 */
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 340px;
+  height: 410px;
+  position: relative;
+  text-align: center;
+  z-index: 11;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer; /* 마우스를 올리면 손가락 모양으로 변경 */
+  color: black; /* 기본 색상 */
+  transition: color 0.3s ease;
+}
+
+.close-button:hover {
+  color: red; /* 마우스를 올리면 빨간색으로 변경 */
+}
+
+.LoginLogo {
+  margin-top: 50px;
+  margin-bottom: 28px;
+}
+
+.input-group {
+  text-align: center; /* 가운데 정렬 추가 */
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input { /* 이메일, 비밀번호 상자 */
+  width: 240px;
+  padding: 11px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 11px;
+  color: #999;
+  margin: 0 auto;
+}
+
+.input-group input::placeholder {
+  color: #636363;
+}
+
+.input-group input:focus { /* 이메일, 비밀번호 클릭 시 색상 변경 */
+  border-color: #329651;
+  outline: none;
+}
+
+.login-button {
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border: none;
+  width: 240px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px; /* 링크 간의 간격을 줄임 */
+  margin-bottom: 15px;
+  font-size: 13px;
+}
+
+.links a {
+  color: gray;
+  text-decoration: none;
+}
+
+.LoginLogo img {
+  width: 200px;
+  height: auto;
+}

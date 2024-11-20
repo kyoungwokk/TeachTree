@@ -1,0 +1,232 @@
+.Review-header1-square {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+    height: 330px; /* 높이를 조절하여 원하는 크기로 설정 */
+}
+.Review-header1-text {
+    font-size: 24px;
+    margin-left: 180px;
+    margin-top: -60px;
+}
+.Review-header1-text h1 {
+    font-size: 36px;
+    margin: 0;
+}
+.Review-header1-text p {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 15px 0 0 0;
+}
+.Review-header1-img {
+    height: 85%;
+    object-fit: contain;
+    margin-right: 145px;
+}
+
+
+
+.Review-header2-square {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    padding: 20px 40px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Review-header2-text {
+    position: absolute;
+    left:220px;
+    padding: 50px;
+    font-size: 24px;
+    color: black;
+    text-align: left;
+}
+
+.Review-header2-text h1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.Review-community2-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    margin-top: 80px; /* 글씨와 카드 간격 추가 */
+}
+
+.Review-community2-card {
+    margin-top: 100px;
+    width: 450px;
+    height: 500px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.Review-card2-content {
+    flex: 1;
+    background-color: #d3d3d3;
+}
+
+.Review-card2-footer {
+    height: 50px;
+    background-color: #7FC8A9;
+}
+
+
+.Review-header-square2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    padding: 20px 40px ;
+    height: 620px; /* 높이를 조절하여 원하는 크기로 설정 */
+}
+.Review-header-text2 {
+    text-align: center;
+    font-size: 24px;
+    margin-left: 600px;
+    margin-top: -210px;
+
+}
+.Review-header-text2 h1 {
+    margin-bottom: 60px;
+    font-size: 34px;
+    color: black;
+
+}
+
+.Review-community-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Review-community-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.Review-community-buttons {
+    display: grid;
+    grid-template-columns: repeat(5, auto); /* 각 열 너비를 자동으로 설정 */
+    gap: 10px;
+    justify-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.Review-community-button {
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: white;
+    color: gray;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.Review-community-button:not(.Review-selected):hover {
+    background-color: #f0f0f0;
+}
+
+.Review-selected {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.Review-center-content {
+
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: -250px;
+    margin-left: 980px;
+}
+.Review-center-img {
+    margin: -10px 0px 15px -140px;
+}
+
+.Review-center-text {
+    margin: 0px 0px 35px -135px;
+    font-size: 18px;
+    color: gray;
+}
+
+.Review-community-button1 {
+    margin: 0px 0px 0px -100px;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: white;
+    color: gray;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.Review-selected1 {
+    background-color: rgb(177,138,196);
+    color: white;
+    font-weight: bold;
+}
+
+.Review-community-button1:hover {
+    background-color: purple;
+}
+
+
+.Review-middle{
+    margin-top: 100px;
+    height: 850px;
+    background: linear-gradient(to bottom, #ffffff, rgba(85, 255, 105, 0.3));
+}
+.Review-circle4{
+    margin-top: 100px;
+    margin-left: 912px;
+}
+.Review-middle h1{
+    margin-top: 150px;
+    margin-left: 560px;
+}
+
+.Review-middle-button {
+
+    margin-left: 842px;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: white;
+    color: gray;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.Review-middle-selected {
+    background-color: rgb(177,138,196);
+    color: white;
+    font-weight: bold;
+}
+.Review-middle-button:hover {
+    background-color: purple;
+}
+.Review-middle-button1{
+    margin-top: 100px;
+}
+

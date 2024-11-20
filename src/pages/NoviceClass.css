@@ -1,0 +1,117 @@
+.novice-class {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+}
+
+/* 상단 소개 섹션 */
+.intro-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 50px 100px; /* 양쪽 여백 추가 */
+    box-sizing: border-box;
+}
+
+.intro-text {
+    flex: 1;
+    color: #000000;
+    text-align: left;
+}
+
+.intro-text h2 {
+    color: #243a2d;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.intro-text h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.intro-text p {
+    font-size: 18px;
+    color: #555555;
+    margin-bottom: 40px;
+}
+
+.circle-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-image {
+    width: 100%; /* 이미지가 부모 너비를 차지하도록 설정 */
+    max-width: 400px;
+    height: auto;
+}
+
+/* 노베이스 컨텐츠 장점 섹션 */
+.advantages-section {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 60px 100px; /* 양쪽 여백 추가 */
+    width: 100%;
+    text-align: center;
+    border-radius: 25px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.advantages-section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.advantage-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.advantage-card {
+    background-color: transparent;
+    color: #ffffff;
+    width: 220px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    border: 1px solid #ffffff;
+}
+
+/* 추가 섹션 */
+.additional-section {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 60px 100px; /* 양쪽 여백 추가 */
+    width: 100%;
+    text-align: center;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.additional-section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.additional-section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}

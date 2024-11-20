@@ -1,0 +1,305 @@
+.Tree-header-square {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+    height: 330px; /* 높이를 조절하여 원하는 크기로 설정 */
+}
+
+.Tree-header-text {
+    font-size: 24px;
+    margin-left: 180px;
+    margin-top: -60px;
+}
+
+.Tree-header-text h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.Tree-header-text p {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 15px 0 0 0;
+}
+
+.Tree-header-img {
+    height: 85%;
+    object-fit: contain;
+    margin-right: 145px;
+}
+
+.Tree-header-square2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    padding: 20px 40px;
+    height: 620px; /* 높이를 조절하여 원하는 크기로 설정 */
+}
+
+.Tree-header-text2 {
+    font-size: 24px;
+    margin-left: 180px;
+    margin-top: -210px;
+}
+
+.Tree-header-text2 h1 {
+    font-size: 34px;
+    color: black;
+    margin: 0;
+}
+
+
+.header2-square {
+    position: relative;
+    background-color: rgb(161, 159, 159);
+    color: white;
+    padding: 20px 40px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.header2-text {
+    position: absolute;
+    left:220px;
+    padding: 50px;
+    font-size: 24px;
+    color: black;
+    text-align: left;
+}
+
+.header2-text h1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.community2-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    margin-top: 80px; /* 글씨와 카드 간격 추가 */
+}
+
+.community2-card {
+    margin-top: 100px;
+    width: 450px;
+    height: 500px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.card2-content {
+    flex: 1;
+    background-color: #d3d3d3;
+}
+
+.card2-footer {
+    height: 50px;
+    background-color: #7FC8A9;
+}
+
+
+.tree-header-square2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    padding: 20px 40px;
+    height: 620px; /* 높이를 조절하여 원하는 크기로 설정 */
+}
+.tree-header-text2 {
+    font-size: 24px;
+    margin-left: 180px;
+    margin-top: -210px;
+    
+}
+.tree-header-text2 h1 {
+    font-size: 34px;
+    color: black;
+    margin: 0;
+}
+
+.tree-community-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tree-community-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.tree-community-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, auto); /* 각 열 너비를 자동으로 설정 */
+    gap: 10px; /* 버튼 간의 간격 조절 */
+    justify-items: center;
+    max-width: 560px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.tree-community-button {
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: white;
+    color: gray;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.tree-community-button:not(.tree-selected):hover {
+    background-color: #f0f0f0;
+}
+
+.tree-selected {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.tree-search-container {
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+.tree-search-input {
+    width: 350px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    color: #999;
+}
+
+.tree-search-input::placeholder {
+    color: #ccc;
+}
+
+.tree-center-content {
+    text-align: left;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.tree-center-img {
+    margin: -10px 0px 15px -140px;
+}
+
+.tree-center-text {
+    margin: 0px 0px 35px -135px;
+    font-size: 18px;
+    color: gray;
+}
+
+.tree-community-button1 {
+    margin: 0px 0px 0px -100px;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: white;
+    color: gray;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.tree-selected1 {
+    background-color: rgb(177,138,196);
+    color: white;
+    font-weight: bold;
+}
+
+.tree-community-button1:hover {
+    background-color: purple;
+}
+
+
+#Tree-middle4 {
+    position: relative;
+    top: auto;
+    height: auto; 
+    background-color: rgb(75, 86, 76);
+    z-index: 4;
+    padding-top: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+  }
+  
+  .Tree-footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 300px;
+    gap: 20px; /* 각 섹션 사이의 간격을 넓혀줌 */
+    width: 100%; /* 전체 너비 사용 */
+  }
+  
+  .Tree-footer-section {
+    margin: 10px 0px 0px 115px;
+  }
+  
+  .Tree-footer-info {
+    width: 100%;
+    margin: 15px 400px 20px 400px;
+    border-top: 1px solid white;
+    padding-top: 50px;
+    font-size: 12px;
+    line-height: 2;
+  }
+  
+  .Tree-footer-section p {
+    margin-bottom: 10px; /* 글씨 간의 간격을 10px로 설정 */
+    color: #ffffff; 
+    font-size: 15px; /* 글씨 크기 조절 */
+    line-height: 1.5; /* 줄 간격 조절 */
+    font-weight: 500;
+  }
+  
+  #Tree-middle4 p {
+    margin: 5px; /* 각 문단의 간격을 줄임 */
+  }
+  
+  #Tree-middle4 .Tree-footer-info p {
+    font-size: 12px;
+    color: #ffffff; /* 흰색으로 설정 */
+    margin-top: -5px;
+  }
+  
+  #Tree-middle4 a {
+    color: white; /* 링크 색상을 흰색으로 변경 */
+    text-decoration: none; /* 밑줄 제거 */
+    font-size: 14px; /* 글씨 크기 조절 */
+    display: block; /* 블록 형태로 표시 */
+    margin-bottom: 10px; /* 링크 간격 조절 */
+  }
+  
+  .Tree-middleLogo {
+    margin-top: -50px;
+    width: auto; /* 이미지의 너비 */
+    height: 50px; /* 이미지의 높이 */
+  }
+  
+
+
